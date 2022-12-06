@@ -1,7 +1,12 @@
+package Mundial;
+
+import Mundial.Equipo;
+import Mundial.EtapaMundial;
+
 import java.util.ArrayList;
 
 
-public class Grupo extends EtapaMundial{
+public class Grupo extends EtapaMundial {
 
 
 

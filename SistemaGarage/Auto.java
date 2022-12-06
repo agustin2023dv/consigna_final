@@ -1,6 +1,10 @@
+package SistemaGarage;
+
+import SistemaGarage.Rueda;
+
 import java.util.ArrayList;
 
-public class Auto extends Vehiculo{
+public class Auto extends Vehiculo {
 
     private int cantidadPuertas;
 
@@ -25,7 +29,7 @@ public class Auto extends Vehiculo{
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "SistemaGarage.Auto{" +
                 "cantidadPuertas=" + cantidadPuertas +
                 '}';
     }

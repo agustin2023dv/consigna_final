@@ -1,3 +1,8 @@
+package Mundial;
+
+import Mundial.Equipo;
+import Mundial.EtapaMundial;
+
 import java.util.ArrayList;
 
 public class Llave extends EtapaMundial {

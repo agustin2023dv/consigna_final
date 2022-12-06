@@ -1,3 +1,7 @@
+package Mundial;
+
+import SistemaGarage.Rueda;
+
 import java.util.ArrayList;
 
 public abstract class Vehiculo {
@@ -81,7 +85,7 @@ public abstract class Vehiculo {
 
     @Override
     public String toString() {
-        return "Vehiculo{" +
+        return "Mundial.Vehiculo{" +
                 "motor='" + motor + '\'' +
                 ", marca='" + marca + '\'' +
                 ", matricula='" + matricula + '\'' +

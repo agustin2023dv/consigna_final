@@ -1,3 +1,7 @@
+package Mundial;
+
+import Mundial.Equipo;
+
 import java.util.ArrayList;
 
 public class EtapaMundial{
@@ -37,7 +41,7 @@ public class EtapaMundial{
 
     @Override
     public String toString() {
-        return "EtapaMundial [descripcionEtapa=" + descripcionEtapa + ", partidos=" + partidos + "]";
+        return "Mundial.EtapaMundial [descripcionEtapa=" + descripcionEtapa + ", partidos=" + partidos + "]";
     }
 
     public void addPartido(Partido partido) {

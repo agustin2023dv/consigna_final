@@ -1,5 +1,9 @@
+package Mundial;
+
+import Mundial.Equipo;
+
 import java.util.Date;
-import java.util.ArrayList;
+
 public class Partido {
 
     private Date fecha;
@@ -68,7 +72,7 @@ public class Partido {
 
     @Override
     public String toString() {
-        return "Partido [fecha=" + this.getFecha() + ", local=" + local.getNombre() + ", visitante=" + visitante.getNombre() + ", resultado=" + resultado.getGolesLocal()
+        return "Mundial.Partido [fecha=" + this.getFecha() + ", local=" + local.getNombre() + ", visitante=" + visitante.getNombre() + ", resultado=" + resultado.getGolesLocal()
                 +"-"+ resultado.getGolesVisitante()+ "]";
     }
 

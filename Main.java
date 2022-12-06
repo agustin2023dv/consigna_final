@@ -1,3 +1,6 @@
+import Mundial.*;
+import SistemaGarage.*;
+
 import java.util.Date;
 
 public class Main {
@@ -63,8 +66,9 @@ public class Main {
 
 
         g1.addEquipoQueAvanza(arabia);
+        g1.addEquipoQueAvanza(argentina);
 
-        System.out.print(g1.getEquiposQueAvanzan().get(0).getNombre());
+        System.out.print(g1.getEquiposQueAvanzan());
 
 
         Llave lOctavos = new Llave("Octavos de final del toreno");

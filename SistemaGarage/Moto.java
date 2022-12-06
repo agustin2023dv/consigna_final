@@ -1,6 +1,10 @@
+package SistemaGarage;
+
+import SistemaGarage.Rueda;
+
 import java.util.ArrayList;
 
-public class Moto extends Vehiculo{
+public class Moto extends Vehiculo {
 
     private boolean pie;
     private int cilindradas;
@@ -30,7 +34,7 @@ public class Moto extends Vehiculo{
 
     @Override
     public String toString() {
-        return "Moto{" +
+        return "SistemaGarage.Moto{" +
                 "pie=" + pie +
                 ", cilindradas=" + cilindradas +
                 '}';

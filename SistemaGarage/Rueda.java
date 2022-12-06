@@ -1,3 +1,5 @@
+package SistemaGarage;
+
 public abstract class Rueda {
 
     private int size;
